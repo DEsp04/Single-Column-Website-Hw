@@ -1,0 +1,41 @@
+* {
+  border: 1px solid red !important;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #000133;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+nav a, footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#image-1 {
+  width: 220px;
+  height: 220px;
+  background-image: url(../photos/david_espinal.jpg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+.projects {
+  width: 315px;
+  height: 190px;
+}
