@@ -4,12 +4,14 @@
 
 body {
   margin: 0;
+  font-family: 'Heebo', sans-serif;
 }
 
 nav {
   margin: 0;
   padding: 0;
   background-color: #000133;
+  height: 82px;
 }
 nav ul {
   display: flex;
@@ -18,11 +20,40 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-right: 5%;
   height: 100%;
 }
+
+nav li {
+  margin-right: 5%;
+}
+
 nav a, footer a {
   color: white;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin-top: 10%;
+  margin-bottom: 0;
+  margin-left: 6%;
+}
+
+h1, h3 {
+  color: #000133;
+}
+
+h2 {
+  color: #7b7b7b;
+  margin: 1.5% 0 7% 6%;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;  
+  font-size: 1.8rem;
+  padding-top: 3%;
 }
 
 #image-1 {
@@ -31,11 +62,40 @@ nav a, footer a {
   background-image: url(../photos/david_espinal.jpg);
   background-repeat: no-repeat;
   border-radius: 50%;
-  margin-left: 6px;
-  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container-about p {
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#my-projects {
+  background-color: #f5f5f5;
 }
 
 .projects {
   width: 315px;
   height: 190px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.odd, .even {
+  margin-bottom: 1%;
+}
+
+.odd {
+  margin-right: 1%;
+  
+}
+
+.even {
+  margin-left: 1%;
+} 
