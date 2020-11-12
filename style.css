@@ -33,9 +33,15 @@ nav a, footer a {
   text-decoration: none;
 }
 
+#intro {
+  background: url(../photos/backgrnd.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 h1 {
   font-size: 4.5rem;
-  margin-top: 10%;
+  padding-top: 10%;
   margin-bottom: 0;
   margin-left: 6%;
 }
@@ -46,8 +52,10 @@ h1, h3 {
 
 h2 {
   color: #7b7b7b;
-  margin: 1.5% 0 7% 6%;
+  margin-top: 1.5%;
   font-size: 2rem;
+  padding-left: 6%;
+  padding-bottom: 7%;
 }
 
 h3 {
@@ -99,3 +107,5 @@ h3 {
 .even {
   margin-left: 1%;
 } 
+
+footer
