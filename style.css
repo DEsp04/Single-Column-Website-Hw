@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red !important;
-}
+} */
 
 body {
   margin: 0;
@@ -28,7 +28,7 @@ nav li {
   margin-right: 5%;
 }
 
-nav a, footer a {
+nav a, footer h4, footer p {
   color: white;
   text-decoration: none;
 }
@@ -108,4 +108,13 @@ h3 {
   margin-left: 1%;
 } 
 
-footer
+footer {
+  background-color: #000133;
+}
+
+footer p, h4 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
