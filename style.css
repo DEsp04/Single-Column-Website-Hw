@@ -34,7 +34,7 @@ nav a, footer h4, footer p {
 }
 
 #intro {
-  background: url(../photos/backgrnd.png);
+  background: url(photos/backgrnd.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -67,7 +67,7 @@ h3 {
 #image-1 {
   width: 220px;
   height: 220px;
-  background-image: url(../photos/david_espinal.jpg);
+  background-image: url(photos/david_espinal.jpg);
   background-repeat: no-repeat;
   border-radius: 50%;
   margin-left: auto;
